@@ -1,7 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <head>
-    <title>Сиви для Школы редакторов</title>
+    <title>CV Camilla KLeymen</title>
     <link rel="shortcut icon" href="иконка.ico">
       <style>
    a {
@@ -26,33 +26,30 @@ text-decoration: underline;
   </style>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
-    <link id="theme-style" rel="stylesheet" href="assets/style.css">
-	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
-
+    <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <base target="_blank">
 </head>
 <body>
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
 		    <header class="resume-header pt-4 pt-md-0">
-			    <div class="media flex-column flex-md-row">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/V9w0tqm/image.jpg" alt="image" border="0"width="220" height="220"></a>
-				    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/фотощька.jpg" alt="">
+				<div class="media flex-column flex-md-row">
+					<a href="{% static 'assets/images/IMG.jpg' %}"><img src="{% static 'assets/images/IMG.jpg' %}" alt="image" border="0" width="220" height="220"></a>
+					<img class="mr-3 img-fluid picture mx-auto" src="{% static 'assets/images/IMG.jpg' %}" alt="">
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
-						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Стас Зверянов</h1>
-						    <div class="title mb-3">Редактор</div>
+						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Камилла Клейменова</h1>
+						    <div class="title mb-3">PYTHON DEVELOPER</div>
 						    <ul class="list-unstyled">
-							    <li class="mb-2"><a href="mailto:zveryanovstanis@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>zveryanovstanis@gmail.com</a></li>
-							    <li><a><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+7 925 383 46 24</a></li>
+							    <li class="mb-2"><a href="mailto:camillakleymen@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>camillakleymen@gmail.com</a></li>
+							    <li><a><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+998 90 350 84 66</a></li>
 						    </ul>
 					    </div>
 					    <div class="secondary-info ml-md-auto mt-2">
 						    <ul class="resume-social list-unstyled">
-				                <li class="mb-3"><a href="https://t-do.ru/shcok7"><span class="fa-container text-center mr-2"><i class="fab fa-telegram-plane fa-fw"></i></span>shcok7</a></li>
-				                <li class="mb-3"><a href="https://vk.com/id19720848"><span class="fa-container text-center mr-2"><i class="fab fa-vk fa-fw"></i></span>pspmaniys</a></li>
-				                <li class="mb-3"><a href="https://behance.net/twstrblg"><span class="fa-container text-center mr-2"><i class="fab fa-behance fa-fw"></i></span>twstrblg</a></li>
-				                <li><a href="https://psnprofiles.com/twisterblog"><span class="fa-container text-center mr-2"><i class="fab fa-playstation"></i></span>twisterblog</a></li>
+				                <li class="mb-3"><a href="https://t.me/camilla_kl/"><span class="fa-container text-center mr-2"><i class="fab fa-telegram-plane fa-fw"></i></span>TELEGRAM</a></li>
+				                <li><a href="https://psnprofiles.com/twisterblog"><span class="fa-container text-center mr-2"><i class="fab fa-playstation"></i></span>GITHUB</a></li>
 						    </ul>
 					    </div>
 				    </div>
@@ -62,32 +59,32 @@ text-decoration: underline;
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Я</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-0">Магистрант Visual Studies в НИУ ВШЭ, пишу и редактирую тексты. Занимаюсь академическими исследованиями видеоигр, веду про это <a href="http://t-do.ru/twisterblog" target="_blank">блог в Телеграме.</a> Езжу по России и миру, фотографирую в поездках. Фотографии выкладываю на Биханс.</p>
+					    <p class="mb-0">Молодой амбициозный програмист-разработчик, который уверен, что сможет внести свой вклад в развитие вашей компании, а также повысить эффективность ее деятельности. Разрабатываю креативные сайты на фреймворке Django(свободно работаю  с HTML, CSS), также создаю огненные сайты на Flask и FastaApi, превосходно работаю с базами данных(SQL, PostgreSQL, SQLite3). Пишу быстрых и надежных Телеграм ботов. Умею работать в Docker и развертываю все проекты на сервер </p>
 				    </div>
 			    </section>
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Работаю</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">О себе</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
 								    <article class="resume-timeline-item position-relative pb-5">
 
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Редактором</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Основные качества</h3>
 										        <div class="resume-company-name ml-auto">
-										        ГК «Основа»</div>
+										        </div>
 										    </div>
-										    <div class="resume-position-time">2018 — 2019</div>
+										    <div class="resume-position-time"></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Делаю всё, что связано с соцсетями и текстами. Пишу рассылки и посты. Верстаю лендинги, перевожу пресс-релизы, делаю спецпроекты.</p>
-										    <ul>
-											    <li><a href="https://vk.com/@russianimp-top-5-faktov-ob-internete-v-metro-vo-vremena-rossiiskoi-impe?ref=group_block" target="_blank">«Метро в Российской империи»</a></li>
-											    <li><a href="https://vk.com/russianimp?w=wall-44693766_143639" target="_blank">Смешные дореволюционные журналы</a></li>
-											    <li><a href="https://www.instagram.com/p/ByzmsdVopko/" target="_blank">Политические мемы</a></li>
-											 </ul>
+										    <p>Основные качества: стресс устойчивая и коммуникабельная, активный и динамичный подход к задачам, творческий подход к решению проблем, критическое мышление, отличные навыки межличностного общения, финансовая грамотность, хороший командный игрок, а также имеется позитивный настрой к работе.</p>
+<!--										    <ul>-->
+<!--											    <li><a href="https://vk.com/@russianimp-top-5-faktov-ob-internete-v-metro-vo-vremena-rossiiskoi-impe?ref=group_block" target="_blank">«Метро в Российской империи»</a></li>-->
+<!--											    <li><a href="https://vk.com/russianimp?w=wall-44693766_143639" target="_blank">Смешные дореволюционные журналы</a></li>-->
+<!--											    <li><a href="https://www.instagram.com/p/ByzmsdVopko/" target="_blank">Политические мемы</a></li>-->
+<!--											 </ul>-->
 										</div>
 
 								    </article>
@@ -96,19 +93,30 @@ text-decoration: underline;
 
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Копирайтером</h3>
-										        <div class="resume-company-name ml-auto">Текстерра</div>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Ключевые навыки</h3>
+										        <div class="resume-company-name ml-auto"></div>
 										    </div>
-										    <div class="resume-position-time">2018 — 2019</div>
+										    <div class="resume-position-time">
+												<ul style="font-size:17px">
+													<li>Работа с данными на Python</li>
+													<li>Проектирование и управление базами данных SQL</li>
+													<li>Настройка взаимодействия сервера с базами данных</li>
+													<li>Создание веб-сервисов на Django</li>
+													<li>Автоматизация развертывания с помощью Docker</li>
+													<li>Работа с бэкендом сайтов</li>
+													<li>Разработка, тестирование и взаимодействие с API</li>
+													<li>Работа с репозиториями Git</li>
+												</ul>
+											</div>
 									    </div>
-									    <div class="resume-timeline-item-desc">
-										    <p>Написал много текстов, разобрался в куче тем. Теперь не боюсь SEO-ключей и делаю вэнити-серч на заказ.</p>
-										     <ul>
-											    <li><a href="https://docs.google.com/document/d/1iklxr2ouDfpWy2oLBvaYV86htCMz92rsEYtqV0JmDsU/edit" target="_blank">Как протезировать зубы</a></li>
-											    <li><a href="https://docs.google.com/document/d/1aehTEK9_h4LxfCoUifVDXXIc8T3LOVgoZK6ITh_Fka4/edit" target="_blank">Зачем чистить кондиционеры</a></li>
-											    <li><a href="https://docs.google.com/document/d/1apokmN9otgZ2iSTMzgwElkuRLKS_QKM5G4WvHbT2iCM/edit" target="_blank">Почему Москва растёт на Юго-Запад</a></li>
-											 </ul>
-									    </div>
+<!--									    <div class="resume-timeline-item-desc">-->
+<!--										    <p>Написал много текстов, разобрался в куче тем. Теперь не боюсь SEO-ключей и делаю вэнити-серч на заказ.</p>-->
+<!--										     <ul>-->
+<!--											    <li><a href="https://docs.google.com/document/d/1iklxr2ouDfpWy2oLBvaYV86htCMz92rsEYtqV0JmDsU/edit" target="_blank">Как протезировать зубы</a></li>-->
+<!--											    <li><a href="https://docs.google.com/document/d/1aehTEK9_h4LxfCoUifVDXXIc8T3LOVgoZK6ITh_Fka4/edit" target="_blank">Зачем чистить кондиционеры</a></li>-->
+<!--											    <li><a href="https://docs.google.com/document/d/1apokmN9otgZ2iSTMzgwElkuRLKS_QKM5G4WvHbT2iCM/edit" target="_blank">Почему Москва растёт на Юго-Запад</a></li>-->
+<!--											 </ul>-->
+<!--									    </div>-->
 								    </article>
 								    <article class="resume-timeline-item position-relative pb-5">
 									    <div class="resume-timeline-item-header mb-2">
@@ -174,10 +182,10 @@ text-decoration: underline;
 				    </div>
 				    <div class="col-lg-3">
 					    <section class="resume-section skills-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Умею</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Инструменты</h2>
 						    <div class="resume-section-content">
 						        <div class="resume-skill-item">
-							        <h4 class="resume-skills-cat font-weight-bold">В Адоуб</h4>
+							        <h4 class="resume-skills-cat font-weight-bold">Python</h4>
 							        <ul class="list-unstyled mb-4">
 								        <li class="mb-2">
 								            <div class="resume-skill-name">Фотошоп</div>
